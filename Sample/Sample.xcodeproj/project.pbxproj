@@ -23,7 +23,7 @@
 		034E39A31E39E20100CAD3EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		034E39A51E39E20100CAD3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		034E39AB1E39E2A000CAD3EA /* Monocle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Monocle.swift; path = ../../Sources/Monocle.swift; sourceTree = "<group>"; };
-		034E39AD1E39E2C900CAD3EA /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = sample.mp4; path = ../../../../../Desktop/sample.mp4; sourceTree = "<group>"; };
+		034E39AD1E39E2C900CAD3EA /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = sample.mp4; path = ../sample.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
