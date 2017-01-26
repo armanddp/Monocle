@@ -2,9 +2,7 @@
 
 Monocle is an iOS player for circular video shot with [Snapchat Spectacles](https://spectacles.com).
 
-<video autoplay muted loop>
-  <source src="https://storage.googleapis.com/spectacles/77475a70-2882-4cc8-9b55-a6e70f4a0838_white.webm" type="video/mp4">
-</video>
+![Spectacles](https://raw.githubusercontent.com/gizmosachin/Monocle/master/Specs.gif)
 
 ![Pod Version](https://img.shields.io/cocoapods/v/Monocle.svg) [![Build Status](https://travis-ci.org/gizmosachin/Monocle.svg?branch=master)](https://travis-ci.org/gizmosachin/Monocle)
 
