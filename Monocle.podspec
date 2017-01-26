@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files = 'Sources/*.swift'
   s.requires_arc = true
-  s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics', 'QuartzCore'
+  s.frameworks = 'Foundation', 'UIKit', 'CoreGraphics', 'CoreMotion', 'AVFoundation'
 end

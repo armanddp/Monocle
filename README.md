@@ -50,7 +50,7 @@ let package = Package(
 
 ### Manual
 
-You can also simply copy the `Sources` directory into your Xcode project.
+You can also simply copy `Monocle.swift` into your Xcode project.
 
 ## License
 
