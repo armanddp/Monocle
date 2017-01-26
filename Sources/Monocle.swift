@@ -100,6 +100,8 @@ class Monocle: UIView {
 	override func layoutSubviews() {
 		super.layoutSubviews()
 		playerHeightConstraint?.constant = playerEdgeLength
+		playerView.center = center
+		setNeedsUpdateConstraints()
 	}
 }
 
