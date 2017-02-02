@@ -4,7 +4,7 @@ Monocle is an iOS player for circular video shot with [Snapchat Spectacles](http
 
 ![Spectacles](https://raw.githubusercontent.com/gizmosachin/Monocle/master/Specs.gif)
 
-![Pod Version](https://img.shields.io/cocoapods/v/Monocle.svg) [![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat)] [![Build Status](https://travis-ci.org/gizmosachin/Monocle.svg?branch=master)](https://travis-ci.org/gizmosachin/Monocle)
+![Pod Version](https://img.shields.io/cocoapods/v/Monocle.svg) ![Carthage compatible](https://img.shields.io/badge/Carthage-Compatible-brightgreen.svg?style=flat) [![Build Status](https://travis-ci.org/gizmosachin/Monocle.svg?branch=master)](https://travis-ci.org/gizmosachin/Monocle)
 
 ## Version Compatibility
 
