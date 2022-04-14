@@ -36,7 +36,7 @@ class ViewController: UIViewController {
 		
 		// Add a basic header label
 		let headerLabel = UILabel()
-		headerLabel.font = UIFont.systemFont(ofSize: 30.0, weight: UIFontWeightMedium)
+        headerLabel.font = UIFont.systemFont(ofSize: 30.0, weight: UIFont.Weight.medium)
 		headerLabel.text = "Monocle"
 		headerLabel.textAlignment = .center
 		headerLabel.frame = CGRect(x: 0, y: 0, width: view.bounds.width, height: view.bounds.height * 0.3)
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
 		
 		// Add a description
 		let subLabel = UILabel()
-		subLabel.font = UIFont.systemFont(ofSize: 18.0, weight: UIFontWeightRegular)
+        subLabel.font = UIFont.systemFont(ofSize: 18.0, weight: UIFont.Weight.regular)
 		subLabel.text = "Tap the video and rotate your phone."
 		subLabel.textAlignment = .center
 		subLabel.frame = CGRect(x: 0, y: view.bounds.height - view.bounds.height * 0.3, width: view.bounds.width, height: view.bounds.height * 0.3)
@@ -84,12 +84,12 @@ class ViewController: UIViewController {
 		// Dispose of any resources that can be recreated.
 	}
 
-	func toggleMonocleSize() {
+    @objc func toggleMonocleSize() {
 		monocleExpanded = !monocleExpanded
 	}
 	
-	func playerItemDidReachEnd(notification: Notification) {
+    @objc func playerItemDidReachEnd(notification: Notification) {
 		guard let playerItem = notification.object as? AVPlayerItem else { return }
-		playerItem.seek(to: kCMTimeZero)
+        playerItem.seek(to: CMTime.zero)
 	}
 }

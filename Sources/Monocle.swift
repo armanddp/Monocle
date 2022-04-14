@@ -60,7 +60,7 @@ class Monocle: UIView {
 		clipsToBounds = false
 		
 		addSubview(playerView)
-		playerView.playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
+        playerView.playerLayer.videoGravity = AVLayerVideoGravity.resizeAspectFill
 		
 		playerHeightConstraint = playerView.heightAnchor.constraint(equalToConstant: playerEdgeLength)
 		playerHeightConstraint?.isActive = true
